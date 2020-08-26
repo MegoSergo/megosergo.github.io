@@ -8,7 +8,7 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
   var myName = prompt('Как твое имя кожаный?.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = myName + 'Привет, это страница с котьими мемами';
+  myHeading.textContent = myName + ' привет, это страница с котьими мемами';
 }
 
 if(!localStorage.getItem('name')) {
