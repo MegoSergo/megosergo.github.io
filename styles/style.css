@@ -1,0 +1,38 @@
+p,l,h1,h2 {
+    color: #0044ff;
+    text-align: center;
+  }
+
+html {
+    background-color: #E6E683;
+    font-size: 25px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: Amatic SC;
+
+  }
+
+p,ul,l {
+    line-height: 1;
+  letter-spacing: 1px;
+  text-align: center; 
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 2.5px solid rgb(0, 89, 255);
+  }
+
+h1,h2 {
+    margin: 0;
+    padding: 20px 0;    
+    color: #0044ff;
+    text-shadow: 3px 3px 1px rgb(83, 83, 83);
+  }
+
+img {
+    display: block;
+    margin: 0 auto;
+    
+  }
